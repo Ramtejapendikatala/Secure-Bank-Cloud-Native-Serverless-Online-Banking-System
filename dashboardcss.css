@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.container {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 75%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input, select {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+}
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+img {
+    width: 50%;
+    height: 30%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.transaction-section {
+    display: none;
+    
+}
+.exit{
+    padding: 10px;
+    background-color:red;
+    color:black;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

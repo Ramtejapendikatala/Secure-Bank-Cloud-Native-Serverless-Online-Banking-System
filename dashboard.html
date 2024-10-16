@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="dashboardcss.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Transaction Portal</h2>
+        <img src="What-is-Consumer-Banking.jpg" alt="Transaction Image" >
+
+        <div id="transactionOptions">
+            <button id="showDepositBtn">Deposit</button>
+            <button id="showWithdrawBtn">Withdraw</button>
+            <button id="showCheckBalanceBtn">Check Balance</button>
+        </div>
+
+ 
+        <div id="depositSection" class="transaction-section">
+            <h3>Deposit</h3>
+            <input type="number" id="depositAmount" placeholder="Enter deposit amount">
+            <button id="depositBtn">Submit Deposit</button>
+        </div>
+
+    
+        <div id="withdrawSection" class="transaction-section">
+            <h3>Withdraw</h3>
+            <input type="number" id="withdrawAmount" placeholder="Enter withdraw amount">
+            <button id="withdrawBtn">Submit Withdraw</button>
+        </div>
+
+
+
+        <div id="checkBalanceSection" class="transaction-section">
+            <h3>Check Balance</h3>
+            <select id="checkBalance">
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+            <button id="checkBalanceBtn">Submit Check</button>
+        </div>
+
+    </div>
+    <div>
+        <button class="Exit"><a href="./login.html">Exit</a></button>
+    </div>
+
+    <script src="dashboardjs.js">
+ 
+    </script>
+
+</body>
+</html>
